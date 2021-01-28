@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HotCSE 2021">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to HotCSE Program!</title>
+    <link rel="stylesheet" type="text/css" href="HotCSE.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="wrapper">
+
+      <!-- dim page when mobile navigation is shown -->
+      <div class="overlay"></div>
+
+      <!-- MOBILE NAVIGATION BUTTON -->
+      <button type="button" class="visible-xs hamburger is-closed">
+        <span class="hamb-top"></span>
+        <span class="hamb-middle"></span>
+        <span class="hamb-bottom"></span>
+      </button>
+
+      <div class="container" id="page-content-wrapper">
+
+        <div class="row visible-xs" id="mobile-spacer">
+          Menu
+        </div>
+        <!-- JUMBOTRON -->
+        <div class="row">
+          <header id="banner" class="col-xs-12 col-sm-12 col-lg-12">
+            <img class="img-rounded img-responsive" alt="HotCSE 2021" src="hotcse.png">
+          </header>
+        </div>
+
+        <div class="row">
+          <!-- NAVIGATION -->
+<aside id="nav" class="col-sm-3 col-lg-3">
+  <nav>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      
+        
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading1"
+                             
+               onclick="window.location = 'index.html'"
+               
+          >
+            <h4 class="panel-title">Welcome</h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading1">
+            <div class="list-group">
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading2"
+               
+               onclick="$('#collapse2').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">Committees</h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+            <div class="list-group">
+              
+                
+                <a href="com.html" class="list-group-item">Organizing Committee</a>
+              
+                
+                <a href="pc.html" class="list-group-item">Program Committee</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading3"
+               
+               onclick="$('#collapse3').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">Calls</h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading3">
+            <div class="list-group">
+              
+                
+                <a href="cfp.html" class="list-group-item ">Call for Proposals</a>
+              
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-primary">
+          <div class="panel-heading" role="tab" id="heading4"
+               
+               onclick="$('#collapse4').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">Program</h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading4">
+            <div class="list-group">
+              
+                
+                <a href="keynotes.html" class="list-group-item">Invited keynotes</a>
+              
+                
+                <a href="accepted-proposals.html" class="list-group-item current">Accepted proposals</a>
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="heading5"
+               
+               onclick="$('#collapse5').collapse('toggle')"
+               
+          >
+            <h4 class="panel-title">Registration</h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+            <div class="list-group">
+              
+                
+                 <a href="register.html" class="list-group-item">Registration Instructions</a>
+              
+                
+                <a href="venue.html" class="list-group-item ">Venue</a>
+              
+            </div>
+          </div>
+        </div>
+
+  </nav>
+</aside>
+
+
+          <!-- CONTENT -->
+          <div class="col-sm-9 col-lg-9">
+            <h1 id="organizing-committee">Accepted Proposals</h1>
+            <p><font size="4">Under construction.</font></p>
+
+
+
+
+
+
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="row">
+          <div class="footer">
+            <div class="col-sm-offset-3 col-md-8 col-md-offset-3">
+		<p>Acknowledgement: The design style of this website comes from ACM SigMobile template.<br> Last updated: 01/2021 </p>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <span id="top-link-block" class="hidden">
+      <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="fa fa-caret-square-o-up" aria-hidden="true"></i> Back to Top
+      </a>
+    </span>
+
+    <script type="text/javascript" src="HotCSE.js"></script>
+  </body>
+</html>
